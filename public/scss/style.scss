@@ -6,6 +6,13 @@
         font-size: 18px;
         margin: 16px 0;
         padding-bottom: 8px;
+        display: flex;
+        align-items: center;
+        > a {
+            font-size: 14px;
+            font-weight: normal;
+            margin-left: auto;
+        }
     }
     li {
         line-height: 1.6;
@@ -13,5 +20,31 @@
     }
     .back-link {
         font-size: 14px;
+    }
+    p {
+        line-height: 1.6;
+    }
+    input,textarea {
+        padding: 4px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    textarea {
+        height: 160px;
+    }
+    button {
+        padding: 4px 8px;
+        font-size: 14px;
+    }
+    .form-group {
+        margin-bottom: 16px;
+    }
+    .form-button {
+        text-align: right;
+    }
+    .error {
+        color: red;
+        font-size: 14px;
+        margin-top: 8px;
     }
 }
